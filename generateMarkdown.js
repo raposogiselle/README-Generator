@@ -1,9 +1,8 @@
-
-# undefined
-https://github.com/raposogiselle/undefined
+`# ${answers.Title}
+https://github.com/${answers.Username}/${answers.Title}
 
 ## Description:
-I created an app that will quickly and easily generate a professional README page. Running on node and adding inquirer to your package.json dependencies, you'll be back to coding in no time!
+${answers.Description}
 
 ## Table of Contents
 *[Installation](#installation)
@@ -15,7 +14,7 @@ I created an app that will quickly and easily generate a professional README pag
 
 ## Installation 
 The following necessary dependecies must be installed before running this app.
-node, package.json, inquirer.
+${answers.Installation}
 
 ## Usage 
 Provide instructions and examples for use. Include screenshots as needed.
@@ -23,7 +22,7 @@ To add a screenshot, create an "assets/images" folder in your repository and upl
     
     ![alt text](images.jpg)
     
-On your command line under your new project run npm i to install the package.json. then go to npmjs.com and search for inquirer. Copy paste the install code on your terminal. finally answer the prompts on your terminal.
+${answers.Usage}
 
 ## License:
 
@@ -50,13 +49,22 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Contributors:
-This is an open source project and anyone can contribute to it.
+${answers.Contributors}
 
 ## Test:
-
+${answers.Test}
 
 ## Questions:
 Please contact me
 
-raposogiselle
-raposo_gigi@icloud.com
+${answers.Username}
+${answers.Email}
+
+
+
+
+
+
+
+
+`
