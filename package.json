@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Quickly and easily create a README.md file for your projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raposogiselle/README-Generator.git"
+  },
+  "author": "Giselle Raposo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raposogiselle/README-Generator/issues"
+  },
+  "homepage": "https://github.com/raposogiselle/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
